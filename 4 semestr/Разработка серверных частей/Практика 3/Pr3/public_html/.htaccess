@@ -1,0 +1,4 @@
+  AuthType Basic
+  AuthName "My Server"
+  AuthBasicProvider dbd
+  Require valid-user

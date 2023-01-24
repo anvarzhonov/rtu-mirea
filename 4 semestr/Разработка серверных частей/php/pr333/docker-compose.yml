@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      MYSQL_DATABASE: restaurants_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 2001
+  static_nginx:
+    build: ./nginx
+    volumes:
+      - ./nginx:/var/nginx
+      - ./assets:/var/nginx/assets
+    ports:  
+      - 8001:80
+  dynamic_apache:
+    build: ./apache
+    volumes:
+      - ./apache:/var/apache
+      - ./assets:/var/apache/assets
+    ports:
+      - 8002:80
+    depends_on:
+      - db
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+    depends_on:
+      - db

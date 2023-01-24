@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  php:
+    build: ./php
+    volumes:
+      - ./php:/var/www/html/
+    ports:
+      - 8000:80
+    depends_on:
+      - database
+  database:
+    image: mysql
+    restart: always
+    volumes: 
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+         - MYSQL_ROOT_EMPTY_PASSWORD=true
+    

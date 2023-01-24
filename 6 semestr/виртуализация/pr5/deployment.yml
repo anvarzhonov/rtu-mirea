@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anvarzhonov-ikbo-20-19-deployment
+  labels:
+    app: apps
+spec:
+  selector:
+    matchLabels:
+      app: apps
+
+  template:
+    metadata:
+      labels:
+        app: apps
+
+    spec:
+      containers:
+        - name: first-app
+          image: example-pr5
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always

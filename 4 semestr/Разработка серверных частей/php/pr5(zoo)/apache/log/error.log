@@ -1,0 +1,912 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 09 10:52:40.287239 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:52:40.287979 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:52:40.288559 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:52:40.287242 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:52:40.289826 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:52:40.287412 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 09 10:52:40.291328 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 09 10:52:40.288095 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:52:40.292525 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:52:40.288573 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:52:40.290521 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:52:40.292902 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:52:40.293475 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:52:40.295204 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:52:45.346121 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: execute command denied to user 'user'@'%' for routine 'appDB.ENCRYPTED'
+[Sat Oct 09 10:52:45.348838 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:52:45.350806 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:53:08.242570 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: execute command denied to user 'user'@'%' for routine 'appDB.ENCRYPTED'
+[Sat Oct 09 10:53:08.244731 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:53:08.246919 2021] [authn_dbd:error] [pid 17] [client 172.23.0.4:56602] AH01653: Failed to acquire database connection to look up user 'user', referer: http://localhost/
+[Sat Oct 09 10:56:05.519667 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 09 10:56:28.167387 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:56:28.168770 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:56:28.167399 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 09 10:56:28.173214 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 09 10:56:28.168496 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:56:28.176881 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:56:28.169626 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 10:56:28.170707 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:56:28.178358 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:56:28.179635 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 10:56:28.182092 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 10:56:54.566704 2021] [auth_basic:error] [pid 21] [client 172.23.0.4:56640] AH01617: user user: authentication failure for "/protected/staff.php": Password Mismatch, referer: http://localhost/
+[Sat Oct 09 10:57:58.056429 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 09 12:21:44.168742 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 09 12:21:44.170250 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 12:21:44.173863 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 12:21:44.171664 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 09 12:21:44.172508 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 12:21:44.175316 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 12:21:44.182845 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 12:21:44.186550 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 12:22:07.731492 2021] [auth_basic:error] [pid 19] [client 172.25.0.4:59604] AH01617: user user: authentication failure for "/protected/staff.php": Password Mismatch, referer: http://localhost/
+[Sat Oct 09 12:23:42.891090 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 09 12:23:49.025951 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 12:23:49.025950 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 12:23:49.027692 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 12:23:49.026192 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 09 12:23:49.029725 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 09 12:23:49.026691 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 12:23:49.030832 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 12:23:49.027231 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 09 12:23:49.028408 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 12:23:49.031850 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 09 12:23:49.033184 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 09 12:28:40.117268 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:26:52.592536 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 08:26:52.593050 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 08:26:52.593271 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:26:52.594871 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:26:52.593712 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:26:52.594287 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:26:52.596625 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:26:52.594671 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 08:26:52.597448 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:26:52.595267 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 08:26:52.598140 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:26:52.596081 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 08:26:52.597037 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 08:26:52.597772 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:26:52.598490 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:26:52.599255 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:26:52.600250 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:30:06.344455 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:30:06.345504 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 08:30:06.352214 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:30:06.353003 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:30:06.352536 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:30:06.353031 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:30:06.353045 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:30:06.353359 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:30:06.357319 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:30:06.354093 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:30:06.359032 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:30:06.354846 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:30:06.360464 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:30:06.356043 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:30:06.361835 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:30:06.356787 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:30:06.363115 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 08:31:07.614265 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:31:07.615355 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:31:07.616088 2021] [authn_dbd:error] [pid 17] [client 172.19.0.4:60694] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 08:32:09.005673 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:32:09.006518 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:32:09.007134 2021] [authn_dbd:error] [pid 21] [client 172.19.0.4:60706] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 08:32:33.448000 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 08:32:33.448670 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 08:32:33.449161 2021] [authn_dbd:error] [pid 20] [client 172.19.0.4:60714] AH01653: Failed to acquire database connection to look up user 'user'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:34:44.683476 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:34:44.684398 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 08:35:05.307030 2021] [auth_basic:error] [pid 18] [client 172.19.0.4:60762] AH01617: user user: authentication failure for "/protected": Password Mismatch
+[Sat Oct 16 08:35:10.003648 2021] [auth_basic:error] [pid 21] [client 172.19.0.4:60764] AH01617: user admin: authentication failure for "/protected": Password Mismatch
+[Sat Oct 16 08:35:17.066496 2021] [auth_basic:error] [pid 19] [client 172.19.0.4:60766] AH01617: user admin: authentication failure for "/protected": Password Mismatch
+[Sat Oct 16 08:35:52.168133 2021] [autoindex:error] [pid 20] [client 172.19.0.4:60772] AH01276: Cannot serve directory /var/www/html/protected/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Oct 16 08:38:22.352545 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:38:30.479720 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:38:30.480582 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 08:38:39.314892 2021] [auth_basic:error] [pid 19] [client 172.19.0.4:60824] AH01618: user admin not found: /protected/staff.php
+[Sat Oct 16 08:38:43.893229 2021] [auth_basic:error] [pid 18] [client 172.19.0.4:60826] AH01618: user admin not found: /protected/staff.php
+[Sat Oct 16 08:38:52.250767 2021] [auth_basic:error] [pid 21] [client 172.19.0.4:60828] AH01618: user admin not found: /protected/staff.php
+[Sat Oct 16 08:39:02.105414 2021] [auth_basic:error] [pid 19] [client 172.19.0.4:60834] AH01618: user admin not found: /protected/staff.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:39:20.269408 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:39:20.270296 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 08:49:54.202553 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 08:49:54.203694 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 09:58:17.825598 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 09:58:17.827745 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 09:59:32.166259 2021] [auth_basic:error] [pid 19] [client 172.19.0.4:60994] AH01617: user admin: authentication failure for "/protected/staff.php": Password Mismatch, referer: http://localhost/
+[Sat Oct 16 10:10:10.515777 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:37:05.737042 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:37:05.739127 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:38:19.784709 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:38:19.785548 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 10:38:29.252599 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:38:41.696532 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:38:41.697473 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 10:39:50.664220 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:41:55.472591 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:41:55.474170 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:45:55.628564 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:45:55.629103 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:48:13.352638 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:48:13.353213 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 10:49:32.402995 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:49:59.922459 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:49:59.923657 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:52:09.098159 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:52:09.098801 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 10:53:37.225696 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 10:53:41.761546 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 10:53:41.763469 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:06:16.518956 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:12:28.709416 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:12:28.710060 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:12:28.712248 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 11:12:28.712431 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 11:12:28.713232 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 11:12:28.712537 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 11:12:28.712989 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 11:12:28.715096 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 11:12:28.713507 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 11:12:28.713964 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 11:12:28.714142 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 11:12:28.714674 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 11:12:28.716459 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 11:12:28.716973 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 11:12:28.717721 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 11:12:28.718131 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 11:12:28.719490 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 11:31:28.425428 2021] [autoindex:error] [pid 19] [client 172.23.0.4:51964] AH01276: Cannot serve directory /var/www/html/protected/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:39:17.709919 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:39:17.710917 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:39:57.268654 2021] [php7:error] [pid 18] [client 172.23.0.4:52040] script '/var/www/html/protected/db.php' not found or unable to stat
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:55:02.992589 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:55:02.994588 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:55:26.264898 2021] [php7:error] [pid 21] [client 172.23.0.4:52092] script '/var/www/html/protected/staff.php' not found or unable to stat
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:57:12.327445 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:57:12.331177 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:58:16.501423 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:58:58.479360 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:58:58.480365 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 11:59:42.567370 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 11:59:59.140832 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 11:59:59.141875 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:00:36.777279 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:00:55.476270 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:00:55.478985 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:02:25.974098 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:02:47.804337 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:02:47.805321 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:03:51.332272 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:04:16.747303 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:04:16.748417 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:09:26.202877 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:09:26.203473 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:09:43.811110 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:09:45.696707 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:09:45.697678 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:10:32.175116 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:10:34.053470 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:10:34.054240 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:11:10.163578 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:11:14.905508 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:11:14.906193 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:11:40.154894 2021] [php7:error] [pid 20] [client 172.25.0.4:51814] script '/var/www/html/protected/staff.php' not found or unable to stat, referer: http://localhost/
+[Sat Oct 16 12:13:08.825587 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:13:13.536399 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:13:13.536976 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:15:12.307720 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:15:12.308474 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:15:44.245470 2021] [php7:error] [pid 22] [client 172.25.0.4:51946] script '/var/www/html/protected/staff.php' not found or unable to stat, referer: http://localhost/
+[Sat Oct 16 12:16:05.261122 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:16:20.775973 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:16:20.777543 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:16:31.207188 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:16:41.506275 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:16:41.507073 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:16:41.507647 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:16:41.507630 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:16:41.507629 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:16:41.507753 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:16:41.508042 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:16:41.509159 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:16:41.508298 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:16:41.508661 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:16:41.510204 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:16:41.508830 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:16:41.508915 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:16:41.511154 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:16:41.509852 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:16:41.510862 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:16:41.512144 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:20:45.714330 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:20:55.980773 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:20:55.981931 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:20:55.981909 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:20:55.981920 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:20:55.981918 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:20:55.982856 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:20:55.983991 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:20:55.982951 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:20:55.983285 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:20:55.983402 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:20:55.983622 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:20:55.985348 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:20:55.984606 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:20:55.984833 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:20:55.985079 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:20:55.986021 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:20:55.986877 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:21:00.780208 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:00.780702 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:00.780983 2021] [authn_dbd:error] [pid 18] [client 172.27.0.4:49864] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:21:01.528901 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:01.529554 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:01.529966 2021] [authn_dbd:error] [pid 19] [client 172.27.0.4:49868] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:21:02.258298 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:02.258887 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:02.259220 2021] [authn_dbd:error] [pid 20] [client 172.27.0.4:49872] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:21:02.910491 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:02.911088 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:02.911498 2021] [authn_dbd:error] [pid 22] [client 172.27.0.4:49876] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:21:03.506711 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:03.507205 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:03.507485 2021] [authn_dbd:error] [pid 21] [client 172.27.0.4:49880] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:21:04.380521 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:21:04.381101 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:21:04.381457 2021] [authn_dbd:error] [pid 18] [client 172.27.0.4:49884] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:22:42.155517 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:22:42.156305 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:22:42.156883 2021] [authn_dbd:error] [pid 20] [client 172.27.0.4:49894] AH01653: Failed to acquire database connection to look up user 'admin'
+[Sat Oct 16 12:23:20.756056 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:23:20.757045 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:23:20.757688 2021] [authn_dbd:error] [pid 22] [client 172.27.0.4:49898] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:25:07.128761 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:25:07.130952 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:25:07.132475 2021] [authn_dbd:error] [pid 21] [client 172.27.0.4:49906] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:31:56.302520 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:32:08.546686 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:32:08.548548 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:32:08.548013 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:32:08.549481 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:08.548454 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:32:08.548600 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:32:08.548659 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:32:08.549067 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:08.551071 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:32:08.549618 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:32:08.551679 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:08.549807 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:32:08.550142 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:08.550780 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:08.552842 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:32:08.551963 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:32:08.552559 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:32:17.854205 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:32:17.854979 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:17.855482 2021] [authn_dbd:error] [pid 20] [client 172.28.0.4:60760] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:32:18.768148 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:32:18.769215 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:18.769856 2021] [authn_dbd:error] [pid 17] [client 172.28.0.4:60764] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:32:18.930481 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:32:18.931719 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:18.932744 2021] [authn_dbd:error] [pid 19] [client 172.28.0.4:60768] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:32:19.071162 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:32:19.072290 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:19.072902 2021] [authn_dbd:error] [pid 21] [client 172.28.0.4:60772] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:32:56.434608 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:32:56.435349 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:32:56.435766 2021] [authn_dbd:error] [pid 18] [client 172.28.0.4:60776] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:33:05.481499 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:33:05.482888 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:33:05.483773 2021] [authn_dbd:error] [pid 20] [client 172.28.0.4:60780] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:34:32.071343 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:32.072442 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:32.073280 2021] [authn_dbd:error] [pid 20] [client 172.28.0.4:60800] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:34:32.697018 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:32.698558 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:32.699387 2021] [authn_dbd:error] [pid 17] [client 172.28.0.4:60804] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:34:32.845003 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:32.846036 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:32.846707 2021] [authn_dbd:error] [pid 19] [client 172.28.0.4:60808] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:34:54.100766 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:34:54.101561 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:34:54.104298 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:54.107269 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:54.107519 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:54.108455 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:54.108856 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:54.111513 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:34:54.109898 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:34:54.110196 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:54.110627 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:54.111181 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:54.116362 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:34:54.113548 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:34:54.114463 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:34:54.115460 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:34:54.117807 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:35:20.696844 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:35:20.698276 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:35:20.699169 2021] [authn_dbd:error] [pid 22] [client 172.28.0.4:60850] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:36:09.427807 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:36:09.429168 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:36:09.434705 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:09.435939 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:09.435006 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:09.435053 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:09.436356 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:09.437059 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:09.440559 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:09.437874 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:09.438389 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:09.438586 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:09.439810 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:09.441928 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:09.442942 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:09.445457 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:09.443491 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:19.119220 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:36:46.338523 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:36:46.339440 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:36:46.340042 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:46.339635 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:46.340942 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:46.339667 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:46.340165 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:46.340530 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:46.341508 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:46.341670 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:46.341999 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:46.342471 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:46.344330 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:46.342834 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:46.343609 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:46.343981 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:46.345483 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:50.349678 2021] [dbd:error] [pid 23] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:36:50.350582 2021] [dbd:error] [pid 23] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:50.353036 2021] [dbd:crit] [pid 23] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:36:57.221930 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:36:57.222959 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:36:57.223595 2021] [authn_dbd:error] [pid 20] [client 172.29.0.4:59542] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:38:26.720100 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:40:10.689280 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:40:10.694741 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:10.694805 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:10.694861 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:10.695638 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:10.697073 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:40:10.697803 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:10.698912 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:10.699580 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:10.707038 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:40:10.700443 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:10.701285 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:10.709312 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:40:10.705973 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:10.706284 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:40:10.708528 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:40:10.710830 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:40:37.844278 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:40:37.845199 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:40:37.845751 2021] [authn_dbd:error] [pid 17] [client 172.29.0.4:59558] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:42:07.555732 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:42:21.903492 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:42:21.904191 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:42:21.905181 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:42:21.905234 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:42:21.905732 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:42:21.906632 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:42:21.906218 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:42:21.906668 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:42:21.907891 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:42:21.906716 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:42:21.906812 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:42:21.909037 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:42:21.907101 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:42:21.909941 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:42:21.907507 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:42:21.908237 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:42:21.909521 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:43:28.775123 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:43:38.875590 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:43:38.876686 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:43:38.877720 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:43:38.877387 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:43:38.877912 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:43:38.878068 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:43:38.878135 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:43:38.878380 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:43:38.879999 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:43:38.878777 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:43:38.880616 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:43:38.879088 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:43:38.881452 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:43:38.879372 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:43:38.882334 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:43:38.879670 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:43:38.883097 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:44:51.457347 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:45:04.829395 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:45:04.829541 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:45:04.830295 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:04.830963 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:04.830969 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:45:04.831477 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:45:04.831807 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:45:04.831916 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:45:04.832289 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:04.832969 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:45:04.834734 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:45:04.834004 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:45:04.834356 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:45:04.834810 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:04.835135 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:04.836199 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:45:04.836591 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:45:21.631820 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:45:21.632663 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:21.633204 2021] [authn_dbd:error] [pid 18] [client 192.168.0.4:41302] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:45:36.730051 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:45:36.730535 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:45:36.730781 2021] [authn_dbd:error] [pid 19] [client 192.168.0.4:41310] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:46:52.983977 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00632: failed to prepare SQL statements: Table 'appDB.person' doesn't exist
+[Sat Oct 16 12:46:52.984690 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:46:52.984952 2021] [authn_dbd:error] [pid 20] [client 192.168.0.4:41316] AH01653: Failed to acquire database connection to look up user 'admin', referer: http://localhost/
+[Sat Oct 16 12:47:28.811619 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:47:38.585300 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:47:38.585966 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:47:38.586471 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:47:38.586543 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:47:38.586577 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:47:38.586949 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:47:38.587865 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:47:38.587138 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:47:38.587260 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:47:38.589000 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:47:38.587542 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:47:38.589478 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:47:38.588473 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:47:38.588737 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:47:38.590095 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:47:38.590693 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:47:38.590406 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:49:02.890875 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.32.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:49:12.453259 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:49:12.453906 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:49:12.454303 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:49:12.453897 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:49:12.453898 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:49:12.455438 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:49:12.453901 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:49:12.455038 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:49:12.456463 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:49:12.455073 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:49:12.455885 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:49:12.455952 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:49:12.456187 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:49:12.456953 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:49:12.458035 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:49:12.457496 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:49:12.458502 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:56:06.203690 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 12:56:18.496288 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:56:18.496580 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:56:18.496830 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:56:18.498383 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:56:18.497518 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:56:18.497725 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:56:18.500251 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:56:18.497839 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 12:56:18.498473 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:56:18.498909 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:56:18.499585 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:56:18.500612 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 12:56:18.501119 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 12:56:18.501765 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:56:18.502086 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 12:56:18.502517 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 12:56:18.504677 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:00:48.673585 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.80.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 13:01:01.531711 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:01:01.531734 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:01:01.532251 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:01:01.533478 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:01:01.533171 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:01:01.533669 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:01:01.534171 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:01:01.535523 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:01:01.534659 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:01:01.535045 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:01:01.534369 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 13:01:01.536683 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:01:01.537798 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:01:01.537306 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 13:01:01.537677 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:01:01.539609 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:01:01.540176 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:02:55.235312 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 16 13:03:04.548643 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 16 13:03:04.549154 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 16 13:03:04.549720 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:03:04.549721 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:03:04.549970 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:03:04.550852 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:03:04.550107 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:03:04.550191 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:03:04.550467 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:03:04.552120 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:03:04.551254 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:03:04.551257 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Sat Oct 16 13:03:04.551619 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:03:04.553840 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:03:04.551870 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:03:04.553419 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Sat Oct 16 13:03:04.554690 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Sat Oct 16 13:28:53.683737 2021] [php7:error] [pid 18] [client 192.168.96.4:39878] script '/var/www/html/menu2.php' not found or unable to stat
+[Sun Oct 17 15:30:44.094986 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 11:36:24.016251 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 11:36:24.016409 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Fri Oct 22 11:36:24.016742 2021] [dbd:error] [pid 17] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Fri Oct 22 11:36:24.016511 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 11:36:24.016599 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Fri Oct 22 11:36:24.016650 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Fri Oct 22 11:36:24.017450 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Fri Oct 22 11:36:24.016841 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Fri Oct 22 11:36:24.016911 2021] [dbd:crit] [pid 17] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Fri Oct 22 11:36:24.017148 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Fri Oct 22 11:36:24.017283 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Fri Oct 22 11:36:24.018349 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Fri Oct 22 11:36:24.017641 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Fri Oct 22 11:36:24.017851 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Fri Oct 22 11:36:24.018795 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Fri Oct 22 11:36:24.018154 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Fri Oct 22 11:36:24.019080 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Fri Oct 22 11:42:01.763703 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 11:42:07.653167 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 11:42:07.653734 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 11:42:34.314909 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 11:42:40.213128 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 11:42:40.213410 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 11:42:54.733134 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 11:42:59.924753 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 11:42:59.925120 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 11:43:07.175066 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 11:43:17.123159 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 11:43:17.123422 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 11:43:42.381052 2021] [auth_basic:error] [pid 21] [client 172.18.0.4:42438] AH01618: user ivan not found: /protected/employers.php, referer: http://localhost/index.html
+[Fri Oct 22 11:43:46.764973 2021] [auth_basic:error] [pid 17] [client 172.18.0.4:42440] AH01618: user ivan not found: /protected/employers.php, referer: http://localhost/index.html
+[Fri Oct 22 12:40:44.477614 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 12:42:37.373121 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 12:42:37.373406 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 12:47:52.361176 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 12:47:58.153371 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 12:47:58.153721 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 13:09:01.149374 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 13:09:30.191790 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 13:09:30.192056 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 13:14:11.090613 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 13:14:19.370475 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 13:14:19.370831 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 14:17:26.675587 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 14:17:34.180185 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 14:17:34.180641 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 14:50:25.476615 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 14:50:34.766470 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 14:50:34.766752 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 15:08:24.106879 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 15:08:30.427557 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 15:08:30.427816 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 15:35:43.340149 2021] [auth_basic:error] [pid 19] [client 172.18.0.4:45976] AH01618: user admin1 not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:35:49.324411 2021] [auth_basic:error] [pid 18] [client 172.18.0.4:45986] AH01618: user admin1 not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:36:20.356027 2021] [auth_basic:error] [pid 20] [client 172.18.0.4:45996] AH01618: user ivan not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:36:24.901554 2021] [auth_basic:error] [pid 23] [client 172.18.0.4:46006] AH01618: user admin not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:38:16.353935 2021] [auth_basic:error] [pid 22] [client 172.18.0.4:46040] AH01618: user ivan not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:38:34.775710 2021] [auth_basic:error] [pid 19] [client 172.18.0.4:46050] AH01618: user login not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:39:18.616057 2021] [auth_basic:error] [pid 18] [client 172.18.0.4:46052] AH01618: user admin not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:42:42.613366 2021] [auth_basic:error] [pid 20] [client 172.18.0.4:46060] AH01618: user admin not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:42:49.281120 2021] [auth_basic:error] [pid 23] [client 172.18.0.4:46070] AH01618: user admin not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:42:53.911867 2021] [auth_basic:error] [pid 21] [client 172.18.0.4:46080] AH01618: user 111 not found: /protected/employers.php, referer: http://localhost/
+[Fri Oct 22 15:47:33.788660 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 15:47:43.253776 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 15:47:43.254123 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 15:48:13.560964 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 15:48:20.898048 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 15:48:20.898329 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 15:51:50.846470 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 16:26:29.284305 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 16:26:29.284967 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 16:27:49.063040 2021] [auth_basic:error] [pid 18] [client 192.168.96.4:47986] AH01617: user admin: authentication failure for "/protected/employers.php": Password Mismatch, referer: http://localhost/
+[Fri Oct 22 16:28:52.783902 2021] [auth_basic:error] [pid 21] [client 192.168.96.4:47996] AH01617: user admin: authentication failure for "/protected/employers.php": Password Mismatch, referer: http://localhost/
+[Fri Oct 22 16:29:05.665815 2021] [auth_basic:error] [pid 17] [client 192.168.96.4:47998] AH01617: user admin: authentication failure for "/protected/employers.php": Password Mismatch, referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 16:32:08.772475 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 16:32:08.773716 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 16:32:50.601903 2021] [auth_basic:error] [pid 19] [client 192.168.96.4:48044] AH01617: user admin: authentication failure for "/protected/employers.php": Password Mismatch, referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 16:54:23.515756 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 16:54:23.516850 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 16:56:36.608814 2021] [php7:error] [pid 17] [client 192.168.96.4:48144] script '/var/www/html/index.php' not found or unable to stat
+[Fri Oct 22 16:57:04.286959 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 16:57:45.263923 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 16:57:45.264799 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 16:58:43.904953 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 16:58:54.616385 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 16:58:54.617289 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 16:59:15.817074 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 22 17:17:38.278249 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 22 17:17:38.279800 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 22 19:05:49.884517 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Oct 29 11:01:58.837450 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Oct 29 11:01:58.838756 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Oct 29 13:13:25.917640 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 30 09:50:58.911717 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 30 09:50:58.914492 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 30 09:55:00.838396 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Oct 30 11:56:31.750940 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Oct 30 11:56:31.776159 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Oct 30 13:31:10.860147 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 13:43:04.817578 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 13:43:04.821593 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:13:48.939556 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:13:48.944562 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:22:16.214046 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:22:16.215616 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:29:39.356973 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:29:39.357735 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:31:15.788874 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:31:15.789699 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:34:44.837626 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:34:44.838682 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:50:37.433917 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:50:37.435633 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:51:40.332674 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:51:40.338747 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 05 15:54:23.054770 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 05 15:54:23.055892 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 05 16:01:08.880195 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 17:21:46.414445 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 17:21:46.415839 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 17:24:18.010253 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 17:24:25.168400 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 17:24:25.168916 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 17:41:08.434364 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 17:41:08.435722 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 18:58:07.778919 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 19:03:45.691417 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 19:03:45.700193 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 19:15:31.053331 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 19:15:36.845154 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 19:15:36.845961 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 19:24:14.938290 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 19:27:01.633211 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 19:27:01.634117 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 19:55:20.940157 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 19:55:39.298412 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 19:55:39.299467 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 20:02:39.033747 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 20:02:54.293503 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 20:02:54.297828 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 20:06:49.049206 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 20:06:54.873209 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 20:06:54.874470 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 20:24:40.264992 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Fri Nov 12 20:24:50.518215 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Fri Nov 12 20:24:50.520073 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 12 20:31:25.889834 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 13 08:53:03.548707 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 08:53:03.549177 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 13 09:01:09.677813 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 13 09:01:41.280513 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:01:41.281158 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 13 09:11:24.608495 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 13 09:14:24.495209 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:14:24.497382 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 13 09:31:52.889542 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 13 09:33:08.422784 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:33:08.423634 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 13 09:44:46.412796 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:44:46.414930 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Sat Nov 13 09:56:06.322826 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:56:06.326965 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Sat Nov 13 09:58:23.586915 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 09:58:23.587595 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Sat Nov 13 10:15:46.003769 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 10:15:46.017456 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.96.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Sat Nov 13 10:20:05.390523 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Sat Nov 13 10:20:05.390980 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Nov 13 10:22:46.452543 2021] [php7:error] [pid 18] [client 192.168.96.5:50680] script '/var/www/html/web/upload.php' not found or unable to stat, referer: http://localhost/web/image.php
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Tue Dec 14 20:01:11.912742 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Tue Dec 14 20:01:11.913005 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Tue Dec 14 20:01:11.913266 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 14 20:01:11.913466 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Tue Dec 14 20:01:11.914855 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Tue Dec 14 20:01:11.913888 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Tue Dec 14 20:01:11.913944 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Tue Dec 14 20:01:11.914460 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Dec 14 20:01:11.914624 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Tue Dec 14 20:01:11.915601 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Tue Dec 14 20:01:11.915705 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Tue Dec 14 20:01:11.915872 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Tue Dec 14 20:01:11.916625 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Tue Dec 14 20:01:11.917794 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Tue Dec 14 20:01:11.916936 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Tue Dec 14 20:01:11.917248 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Tue Dec 14 20:01:11.918933 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Tue Dec 14 20:05:18.806628 2021] [php7:error] [pid 18] [client 172.19.0.5:53792] script '/var/www/html/api/index.php' not found or unable to stat
+[Tue Dec 14 20:06:24.090142 2021] [auth_basic:error] [pid 20] [client 172.19.0.5:53836] AH01617: user user: authentication failure for "/protected/employees.php": Password Mismatch
+[Tue Dec 14 20:06:32.053104 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:53858] AH01617: user user: authentication failure for "/protected/employees.php": Password Mismatch
+[Tue Dec 14 20:06:49.314750 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:53868] AH01617: user user: authentication failure for "/protected/employees.php": Password Mismatch
+[Tue Dec 14 20:07:14.826479 2021] [auth_basic:error] [pid 19] [client 172.19.0.5:53882] AH01617: user user: authentication failure for "/protected/employees.php": Password Mismatch
+[Tue Dec 14 20:09:40.727730 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:54072] AH01618: user admin not found: /protected/employees.php
+[Tue Dec 14 20:09:42.617798 2021] [auth_basic:error] [pid 19] [client 172.19.0.5:54082] AH01618: user  not found: /protected/employees.php
+[Tue Dec 14 20:09:43.479193 2021] [auth_basic:error] [pid 21] [client 172.19.0.5:54092] AH01618: user  not found: /protected/employees.php
+[Tue Dec 14 20:09:58.102975 2021] [auth_basic:error] [pid 20] [client 172.19.0.5:54108] AH01617: user user: authentication failure for "/protected/employees.php": Password Mismatch
+[Tue Dec 14 20:10:02.999494 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:54116] AH01618: user admin not found: /protected/employees.php
+[Tue Dec 14 20:10:08.563508 2021] [auth_basic:error] [pid 23] [client 172.19.0.5:54132] AH01618: user  not found: /protected/employees.php
+[Tue Dec 14 20:10:16.285710 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:54146] AH01618: user password not found: /protected/employees.php
+[Tue Dec 14 20:12:29.219581 2021] [php7:error] [pid 22] [client 172.19.0.5:54270] script '/var/www/html/web/voew.php' not found or unable to stat
+[Tue Dec 14 20:14:36.456334 2021] [auth_basic:error] [pid 20] [client 172.19.0.5:54302] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:16:00.800174 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:54324] AH01618: user admin not found: /protected/employers.php
+[Tue Dec 14 20:16:07.119828 2021] [auth_basic:error] [pid 23] [client 172.19.0.5:54334] AH01618: user admin not found: /protected/employers.php
+[Tue Dec 14 20:16:15.208702 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:54344] AH01618: user admin not found: /protected/employers.php
+[Tue Dec 14 20:17:14.587735 2021] [auth_basic:error] [pid 19] [client 172.19.0.5:54354] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:17:24.801044 2021] [auth_basic:error] [pid 21] [client 172.19.0.5:54362] AH01618: user admin not found: /protected/employers.php
+[Tue Dec 14 20:17:33.815307 2021] [auth_basic:error] [pid 20] [client 172.19.0.5:54372] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:19:40.500196 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:54384] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:19:51.913331 2021] [auth_basic:error] [pid 23] [client 172.19.0.5:54400] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:20:15.841502 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:54414] AH01618: user admin not found: /protected/employers.php
+[Tue Dec 14 20:20:39.721729 2021] [auth_basic:error] [pid 19] [client 172.19.0.5:54422] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 20:20:46.102943 2021] [auth_basic:error] [pid 21] [client 172.19.0.5:54430] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Tue Dec 14 21:18:14.635818 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Wed Dec 15 13:25:58.157275 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Wed Dec 15 13:25:58.159458 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 15 13:28:03.357977 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Wed Dec 15 13:28:14.259226 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Wed Dec 15 13:28:14.259965 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 15 13:28:47.720084 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Wed Dec 15 13:53:44.226136 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Wed Dec 15 13:53:44.227082 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'redis.so, session.so' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so (/usr/local/lib/php/extensions/no-debug-non-zts-20170718/redis.so, session.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[Wed Dec 15 14:02:17.653873 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
+[Wed Dec 15 14:02:17.654471 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Wed Dec 15 14:02:17.654488 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Wed Dec 15 14:02:17.654564 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Wed Dec 15 14:02:17.654852 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 15 14:02:17.654975 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Wed Dec 15 14:02:17.655194 2021] [dbd:error] [pid 19] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Wed Dec 15 14:02:17.656798 2021] [dbd:crit] [pid 19] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Wed Dec 15 14:02:17.655505 2021] [dbd:error] [pid 18] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Wed Dec 15 14:02:17.657322 2021] [dbd:crit] [pid 18] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Wed Dec 15 14:02:17.655927 2021] [dbd:error] [pid 20] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Wed Dec 15 14:02:17.655929 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00629: Can't connect to mysql: Can't connect to MySQL server on 'db' (115)
+[Wed Dec 15 14:02:17.656510 2021] [dbd:error] [pid 21] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Wed Dec 15 14:02:17.657829 2021] [dbd:crit] [pid 20] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Wed Dec 15 14:02:17.658232 2021] [dbd:error] [pid 22] (20014)Internal error (specific information not available): AH00633: failed to initialise
+[Wed Dec 15 14:02:17.658520 2021] [dbd:crit] [pid 21] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Wed Dec 15 14:02:17.659051 2021] [dbd:crit] [pid 22] (20014)Internal error (specific information not available): AH00636: child init failed!
+[Wed Dec 15 14:03:45.783657 2021] [php7:error] [pid 20] [client 172.19.0.5:46192] script '/var/www/html/web/index.php' not found or unable to stat
+[Wed Dec 15 14:04:45.034765 2021] [auth_basic:error] [pid 21] [client 172.19.0.5:46208] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Wed Dec 15 14:04:49.433056 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:46218] AH01618: user admin not found: /protected/employers.php
+[Wed Dec 15 14:04:56.990376 2021] [auth_basic:error] [pid 19] [client 172.19.0.5:46228] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Wed Dec 15 14:05:07.395885 2021] [auth_basic:error] [pid 18] [client 172.19.0.5:46230] AH01617: user user: authentication failure for "/protected/employers.php": Password Mismatch
+[Wed Dec 15 14:05:29.352611 2021] [auth_basic:error] [pid 20] [client 172.19.0.5:46232] AH01617: user ivan: authentication failure for "/protected/employers.php": Password Mismatch
+[Wed Dec 15 14:05:32.273019 2021] [auth_basic:error] [pid 21] [client 172.19.0.5:46242] AH01617: user ivan: authentication failure for "/protected/employers.php": Password Mismatch
+[Wed Dec 15 14:05:40.441390 2021] [auth_basic:error] [pid 22] [client 172.19.0.5:46244] AH01618: user admin not found: /protected/employers.php
+[Wed Dec 15 14:13:18.545399 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

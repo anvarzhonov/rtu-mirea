@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="253d88bb-7b62-4be1-adf9-8b437155cda5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Java/task3-virtualization/src/main/resources/static/MIREA_Gerb_Colour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/api/hotelApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/api/securityApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/commons/commons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/const/commonConsts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/context/AppContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/context/SearchContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/errors/ServerValidationError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/forms/formik/formikValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/forms/formik/formikValidationRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/forms/formsCommon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/hooks/useFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel-frontend/src/utils/snackbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/BookingHotelApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/config/MapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/enums/BookingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/enums/Rating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/enums/RoomType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/entity/enums/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/repository/CityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/repository/HotelRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/repository/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/controller/HotelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/controller/SecurityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/dto/HotelDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/dto/RoomDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/request/SignUpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/response/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/rest/response/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/entities/RoleName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/jwt/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/jwt/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/jwt/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/security/service/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/service/hotel/HotelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/service/hotel/HotelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/service/room/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/java/ru/ikbo2019/bookinghotel/service/room/RoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../booking-hotel/src/main/resources/application.yaml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HS2ygLXuD13hIhuxafNdSidvUo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="253d88bb-7b62-4be1-adf9-8b437155cda5" name="Changes" comment="" />
+      <created>1668264421823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668264421823</updated>
+      <workItem from="1668264423086" duration="15000" />
+      <workItem from="1668268502912" duration="12000" />
+      <workItem from="1668272129765" duration="23000" />
+      <workItem from="1668272167486" duration="2230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

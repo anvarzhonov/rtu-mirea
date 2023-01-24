@@ -1,0 +1,24 @@
+version: '3'
+services:
+  php-apache:
+   build:
+     context: ./server
+   ports:
+      - 8001:8001
+   volumes:
+     - ./public_html:/home/public_html
+   depends_on:
+     - mariadb
+  mariadb:
+   build:
+     context: ./mysql
+   volumes:
+     - ./mariadb_data:/var/lib/mysql
+  nginx:
+   build: './nginx'
+   volumes:
+      - ./nginx-public_html:/home/public_html
+   ports:
+      - 8000:80
+   depends_on:
+      - php-apache

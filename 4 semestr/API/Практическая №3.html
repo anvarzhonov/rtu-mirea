@@ -1,0 +1,57 @@
+<html>
+
+<meta charset="UTF-8">
+
+<head>
+
+    <title>Sample page</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script>
+
+        var settings = {
+
+            "url": "https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&appid=9944b5db7695524823aee2685d5a6568",
+
+            "method": "GET",
+
+            "timeout": 0,
+
+        };
+
+        $.ajax(settings).done(function (response) {
+
+            console.log(response);
+
+            var content = response.main.temp_min;
+
+            $("#mainTemp").text(response["main"]["temp_min"]);
+
+            $("#maxTemp").text(response["main"]["temp_max"]);
+
+            $("#pressure").text(response["main"]["pressure"]);
+
+            $("#windS").text(response["wind"]["speed"]);
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1> ИКБО 20-19 Анваржонов </h1>
+
+    Min temp: <span id="mainTemp"></span><br>
+
+    Max temp: <span id="maxTemp"></span><br>
+
+    Pressure: <span id="pressure"></span><br>
+
+    Speed wind: <span id="windS"></span><br>
+
+</body>
+
+</html>
